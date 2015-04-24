@@ -1,0 +1,19 @@
+{
+  "name": "MyUtil",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node test/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hs-zheng/MyUtil.git"
+  },
+  "author": "zhs",
+  "license": " ",
+  "bugs": {
+    "url": "https://github.com/hs-zheng/MyUtil/issues"
+  },
+  "homepage": "https://github.com/hs-zheng/MyUtil"
+}
