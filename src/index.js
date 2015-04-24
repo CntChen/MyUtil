@@ -1,5 +1,5 @@
 var MyDate = function (date) {
-	// chagne the num by current date
+	// 将当前时间减去相应的日子
 	function cacularDate(num) {
 		if (!num) {
 			return new Date();
@@ -21,8 +21,8 @@ var MyDate = function (date) {
 	switch (date.replace(/\d/, '').replace(/\s/g, '')) {
 		case 'hoursago':
 		case 'hourago':
-			this.date = cacularDate(parseInt(date.match(/\d+/)[0]) / 24);
-			break;
+			this.date = cacularDate(parseInt(date.match(/\d+/)[0]) / 24); // 因此传入参数按日子计算
+			break; 
 		case 'day': 
 		case 'yesterday': 
 			this.date = cacularDate(1);
